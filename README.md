@@ -1,6 +1,6 @@
 ## start app
 
-clone locally 
+clone locally and below command
 
 ### `npm i` 
 ### `node index.js`
