@@ -1,0 +1,589 @@
+{
+  "topics": [
+    {
+      "main_heading": "Core Concepts",
+      "id": "core-concepts",
+      "qa": [
+        {
+          "question": "What are variables in JavaScript?",
+          "answer": "`var`, `let`, `const`",
+          "id": "variables"
+        },
+        {
+          "question": "What are the data types in JavaScript?",
+          "answer": "Number, String, Boolean, Object, Undefined, Null, Symbol, BigInt",
+          "id": "data-types"
+        },
+        {
+          "question": "What is type coercion?",
+          "answer": "Implicit and explicit conversion between types",
+          "id": "type-coercion"
+        },
+        {
+          "question": "What are the types of operators in JavaScript?",
+          "answer": "Arithmetic, Assignment, Comparison, Logical, Bitwise, Unary, Ternary",
+          "id": "operators"
+        }
+      ]
+    },
+    {
+      "main_heading": "Control Structures",
+      "id": "control-structures",
+      "qa": [
+        {
+          "question": "What are the conditional statements in JavaScript?",
+          "answer": "`if`, `else if`, `else`, `switch`, ternary operator (`? :`)",
+          "id": "conditionals"
+        },
+        {
+          "question": "What are the types of loops in JavaScript?",
+          "answer": "`for`, `while`, `do...while`, `for...in`, `for...of`, `continue`, `break`",
+          "id": "loops"
+        }
+      ]
+    },
+    {
+      "main_heading": "Functions",
+      "id": "functions",
+      "qa": [
+        {
+          "question": "What is a function declaration?",
+          "answer": "`function name() {}`",
+          "id": "function-declaration"
+        },
+        {
+          "question": "What is a function expression?",
+          "answer": "`const name = function() {};`",
+          "id": "function-expression"
+        },
+        {
+          "question": "What is an arrow function?",
+          "answer": "`const name = () => {};`",
+          "id": "arrow-function"
+        },
+        {
+          "question": "What are anonymous functions?",
+          "answer": "Functions without a name.",
+          "id": "anonymous-functions"
+        },
+        {
+          "question": "What are higher-order functions?",
+          "answer": "Functions that take other functions as arguments or return them.",
+          "id": "higher-order-functions"
+        },
+        {
+          "question": "What are Immediately Invoked Function Expressions (IIFE)?",
+          "answer": "`(function() {})();`",
+          "id": "iife"
+        },
+        {
+          "question": "What are default parameters?",
+          "answer": "Parameters that have a default value if no argument is provided.",
+          "id": "default-parameters"
+        },
+        {
+          "question": "What are rest parameters?",
+          "answer": "`function(...args) {}`",
+          "id": "rest-parameters"
+        },
+        {
+          "question": "What is the spread operator?",
+          "answer": "`function(...args) {}`",
+          "id": "spread-operator"
+        }
+      ]
+    },
+    {
+      "main_heading": "Scope and Closures",
+      "id": "scope-closures",
+      "qa": [
+        {
+          "question": "What is global scope?",
+          "answer": "Variables declared outside any function or block.",
+          "id": "global-scope"
+        },
+        {
+          "question": "What is local scope?",
+          "answer": "Variables declared within a function.",
+          "id": "local-scope"
+        },
+        {
+          "question": "What is block scope?",
+          "answer": "Variables declared within a block (e.g., within `{}`).",
+          "id": "block-scope"
+        },
+        {
+          "question": "What is lexical scope?",
+          "answer": "The scope defined by the location where a variable is declared.",
+          "id": "lexical-scope"
+        },
+        {
+          "question": "What are closures?",
+          "answer": "Functions that retain access to their lexical environment.",
+          "id": "closures"
+        }
+      ]
+    },
+    {
+      "main_heading": "Objects and Prototypes",
+      "id": "objects-prototypes",
+      "qa": [
+        {
+          "question": "What are object literals?",
+          "answer": "`{ key: value }`",
+          "id": "object-literals"
+        },
+        {
+          "question": "What are object constructors?",
+          "answer": "Functions used to create and initialize objects.",
+          "id": "object-constructors"
+        },
+        {
+          "question": "What are prototypes?",
+          "answer": "`object.__proto__`, `Object.getPrototypeOf()`",
+          "id": "prototypes"
+        },
+        {
+          "question": "What is prototype inheritance?",
+          "answer": "Mechanism by which objects inherit properties from their prototype.",
+          "id": "prototype-inheritance"
+        },
+        {
+          "question": "What is the `this` keyword?",
+          "answer": "Refers to the object that is executing the current function.",
+          "id": "this-keyword"
+        },
+        {
+          "question": "What are object methods?",
+          "answer": "`Object.create()`, `Object.assign()`, `Object.keys()`, `Object.values()`, `Object.entries()`",
+          "id": "object-methods"
+        },
+        {
+          "question": "What are classes in JavaScript?",
+          "answer": "`class`, `constructor`, `extends`, `super`",
+          "id": "classes"
+        },
+        {
+          "question": "What are static methods in classes?",
+          "answer": "Methods that belong to the class itself rather than instances.",
+          "id": "static-methods"
+        }
+      ]
+    },
+    {
+      "main_heading": "Arrays",
+      "id": "arrays",
+      "qa": [
+        {
+          "question": "What are common array methods?",
+          "answer": "`push()`, `pop()`, `shift()`, `unshift()`, `splice()`, `slice()`, `concat()`, `forEach()`, `map()`, `filter()`, `reduce()`, `some()`, `every()`, `find()`, `findIndex()`, `includes()`",
+          "id": "array-methods"
+        },
+        {
+          "question": "What is the spread operator for arrays?",
+          "answer": "`[...array]`",
+          "id": "spread-operator-array"
+        },
+        {
+          "question": "What is destructuring in arrays?",
+          "answer": "`const [a, b] = array;`",
+          "id": "destructuring-array"
+        }
+      ]
+    },
+    {
+      "main_heading": "String Manipulation",
+      "id": "string-manipulation",
+      "qa": [
+        {
+          "question": "What are common string methods?",
+          "answer": "`charAt()`, `concat()`, `includes()`, `indexOf()`, `slice()`, `split()`, `substring()`, `toLowerCase()`, `toUpperCase()`, `trim()`",
+          "id": "string-methods"
+        },
+        {
+          "question": "What are template literals?",
+          "answer": "`` `string text ${expression}` ``",
+          "id": "template-literals"
+        }
+      ]
+    },
+    {
+      "main_heading": "Error Handling",
+      "id": "error-handling",
+      "qa": [
+        {
+          "question": "How do you handle errors?",
+          "answer": "Using `try`, `catch`, `finally` blocks.",
+          "id": "try-catch-finally"
+        },
+        {
+          "question": "What is the `throw` keyword?",
+          "answer": "Used to create custom errors.",
+          "id": "throw"
+        },
+        {
+          "question": "What are error objects?",
+          "answer": "`new Error()`, `Error.name`, `Error.message`",
+          "id": "error-objects"
+        }
+      ]
+    },
+    {
+      "main_heading": "Asynchronous JavaScript",
+      "id": "asynchronous-javascript",
+      "qa": [
+        {
+          "question": "What are callbacks?",
+          "answer": "Functions passed as arguments to be executed later.",
+          "id": "callbacks"
+        },
+        {
+          "question": "What are promises?",
+          "answer": "`new Promise()`, `promise.then()`, `promise.catch()`, `promise.finally()`",
+          "id": "promises"
+        },
+        {
+          "question": "What is Async/Await?",
+          "answer": "`async function`, `await expression`",
+          "id": "async-await"
+        },
+        {
+          "question": "What is the event loop?",
+          "answer": "The mechanism that allows JavaScript to perform non-blocking operations.",
+          "id": "event-loop"
+        },
+        {
+          "question": "What are microtasks and macrotasks?",
+          "answer": "Categories of tasks in the event loop.",
+          "id": "microtasks-macrotasks"
+        }
+      ]
+    },
+    {
+      "main_heading": "Event Handling",
+      "id": "event-handling",
+      "qa": [
+        {
+          "question": "What are event listeners?",
+          "answer": "`addEventListener()`, `removeEventListener()`",
+          "id": "event-listeners"
+        },
+        {
+          "question": "What is the event object?",
+          "answer": "An object containing details about the event.",
+          "id": "event-object"
+        },
+        {
+          "question": "What is event propagation?",
+          "answer": "The process by which an event travels through the DOM (capturing, target, bubbling).",
+          "id": "event-propagation"
+        },
+        {
+          "question": "What does `event.preventDefault()` do?",
+          "answer": "Stops the default action associated with the event.",
+          "id": "prevent-default"
+        },
+        {
+          "question": "What does `event.stopPropagation()` do?",
+          "answer": "Stops the event from propagating further.",
+          "id": "stop-propagation"
+        }
+      ]
+    },
+    {
+      "main_heading": "DOM Manipulation",
+      "id": "dom-manipulation",
+      "qa": [
+        {
+          "question": "How do you select elements in the DOM?",
+          "answer": "`getElementById()`, `getElementsByClassName()`, `getElementsByTagName()`, `querySelector()`, `querySelectorAll()`",
+          "id": "select-elements"
+        },
+        {
+          "question": "How do you modify elements in the DOM?",
+          "answer": "By changing `innerHTML`, `innerText`, or `textContent`.",
+          "id": "modify-elements"
+        },
+        {
+          "question": "How do you work with attributes in the DOM?",
+          "answer": "`getAttribute()`, `setAttribute()`, `removeAttribute()`",
+          "id": "attributes"
+        },
+        {
+          "question": "How do you create and insert elements in the DOM?",
+          "answer": "`createElement()`, `appendChild()`, `insertBefore()`, `removeChild()`, `replaceChild()`",
+          "id": "create-insert-elements"
+        }
+      ]
+    },
+    {
+      "main_heading": "BOM (Browser Object Model)",
+      "id": "bom",
+      "qa": [
+        {
+          "question": "What is the window object?",
+          "answer": "`window.alert()`, `window.confirm()`, `window.prompt()`",
+          "id": "window-object"
+        },
+        {
+          "question": "What is the navigator object?",
+          "answer": "`navigator.userAgent`",
+          "id": "navigator-object"
+        },
+        {
+          "question": "What is the screen object?",
+          "answer": "`screen.width`, `screen.height`",
+          "id": "screen-object"
+        },
+        {
+          "question": "What is the location object?",
+          "answer": "`location.href`, `location.reload()`, `location.assign()`",
+          "id": "location-object"
+        },
+        {
+          "question": "What is the history object?",
+          "answer": "`history.back()`, `history.forward()`, `history.go()`",
+          "id": "history-object"
+        }
+      ]
+    },
+    {
+      "main_heading": "Storage",
+      "id": "storage",
+      "qa": [
+        {
+          "question": "How do you use local storage?",
+          "answer": "`localStorage.setItem()`, `localStorage.getItem()`, `localStorage.removeItem()`, `localStorage.clear()`",
+          "id": "local-storage"
+        },
+        {
+          "question": "How do you use session storage?",
+          "answer": "`sessionStorage.setItem()`, `sessionStorage.getItem()`, `sessionStorage.removeItem()`, `sessionStorage.clear()`",
+          "id": "session-storage"
+        },
+        {
+          "question": "How do you work with cookies?",
+          "answer": "`document.cookie`",
+          "id": "cookies"
+        }
+      ]
+    },
+    {
+      "main_heading": "Modules",
+      "id": "modules",
+      "qa": [
+        {
+          "question": "What is the export/import syntax?",
+          "answer": "`export`, `import`, default exports",
+          "id": "export-import"
+        },
+        {
+          "question": "What is CommonJS?",
+          "answer": "`require()`, `module.exports`",
+          "id": "commonjs"
+        }
+      ]
+    },
+    {
+      "main_heading": "Regular Expressions",
+      "id": "regular-expressions",
+      "qa": [
+        {
+          "question": "What is a RegExp object?",
+          "answer": "`new RegExp()`, `/pattern/flags`",
+          "id": "regexp-object"
+        },
+        {
+          "question": "What are RegExp methods?",
+          "answer": "`test()`, `exec()`",
+          "id": "regexp-methods"
+        },
+        {
+          "question": "What are string methods for regular expressions?",
+          "answer": "`match()`, `replace()`, `search()`, `split()`",
+          "id": "string-methods-regexp"
+        }
+      ]
+    },
+    {
+      "main_heading": "APIs and AJAX",
+      "id": "apis-ajax",
+      "qa": [
+        {
+          "question": "What is XMLHttpRequest?",
+          "answer": "A method for making HTTP requests.",
+          "id": "xmlhttprequest"
+        },
+        {
+          "question": "What is the Fetch API?",
+          "answer": "`fetch()`",
+          "id": "fetch-api"
+        },
+        {
+          "question": "How do you handle JSON?",
+          "answer": "`JSON.parse()`, `JSON.stringify()`",
+          "id": "json-handling"
+        },
+        {
+          "question": "What are RESTful services?",
+          "answer": "Architectural style for designing networked applications.",
+          "id": "restful-services"
+        }
+      ]
+    },
+    {
+      "main_heading": "ES6+ Features",
+      "id": "es6-features",
+      "qa": [
+        {
+          "question": "What are block-scoped variables?",
+          "answer": "`let`, `const`",
+          "id": "block-scoped-variables"
+        },
+        {
+          "question": "What are template literals?",
+          "answer": "`` `string text ${expression}` ``",
+          "id": "template-literals"
+        },
+        {
+          "question": "What is destructuring assignment?",
+          "answer": "Syntax for extracting values from arrays or objects.",
+          "id": "destructuring-assignment"
+        },
+        {
+          "question": "What are arrow functions?",
+          "answer": "`const name = () => {};`",
+          "id": "arrow-functions"
+        },
+        {
+          "question": "What are classes and inheritance?",
+          "answer": "`class`, `constructor`, `extends`, `super`",
+          "id": "classes-inheritance"
+        },
+        {
+          "question": "What are default parameters?",
+          "answer": "Parameters with default values.",
+          "id": "default-parameters"
+        },
+        {
+          "question": "What are rest and spread operators?",
+          "answer": "`...` for expanding or collecting elements.",
+          "id": "rest-spread-operators"
+        },
+        {
+          "question": "What are promises?",
+          "answer": "Objects representing the eventual completion or failure of asynchronous operations.",
+          "id": "promises"
+        },
+        {
+          "question": "What are modules?",
+          "answer": "Code split into reusable units with `import` and `export`.",
+          "id": "modules"
+        },
+        {
+          "question": "What are iterators and generators?",
+          "answer": "Mechanisms for iterating over collections and creating iterators.",
+          "id": "iterators-generators"
+        },
+        {
+          "question": "What are symbols?",
+          "answer": "Unique and immutable data types.",
+          "id": "symbols"
+        },
+        {
+          "question": "What are Set and Map collections?",
+          "answer": "Collections for storing unique values and key-value pairs.",
+          "id": "set-map-collections"
+        }
+      ]
+    },
+    {
+      "main_heading": "Advanced Concepts",
+      "id": "advanced-concepts",
+      "qa": [
+        {
+          "question": "What are closures?",
+          "answer": "Functions that retain access to their lexical environment.",
+          "id": "closures"
+        },
+        {
+          "question": "What is currying?",
+          "answer": "The process of transforming a function with multiple arguments into a sequence of functions each taking a single argument.",
+          "id": "currying"
+        },
+        {
+          "question": "What is memoization?",
+          "answer": "Optimization technique where results of expensive function calls are cached.",
+          "id": "memoization"
+        },
+        {
+          "question": "What is recursion?",
+          "answer": "A function that calls itself in order to solve a problem.",
+          "id": "recursion"
+        },
+        {
+          "question": "What is functional programming?",
+          "answer": "Programming paradigm focused on pure functions, immutability, and higher-order functions.",
+          "id": "functional-programming"
+        },
+        {
+          "question": "What are design patterns?",
+          "answer": "General reusable solutions to common problems in software design.",
+          "id": "design-patterns"
+        }
+      ]
+    },
+    {
+      "main_heading": "Testing and Debugging",
+      "id": "testing-debugging",
+      "qa": [
+        {
+          "question": "What are debugging tools?",
+          "answer": "Browser developer tools used to inspect and debug JavaScript code.",
+          "id": "debugging-tools"
+        },
+        {
+          "question": "What are testing frameworks?",
+          "answer": "Libraries like Jest, Mocha, Jasmine for testing JavaScript code.",
+          "id": "testing-frameworks"
+        },
+        {
+          "question": "What is linting?",
+          "answer": "Static analysis tool for identifying problematic patterns in code.",
+          "id": "linting"
+        }
+      ]
+    },
+    {
+      "main_heading": "Performance Optimization",
+      "id": "performance-optimization",
+      "qa": [
+        {
+          "question": "What is memory management?",
+          "answer": "Techniques for efficiently allocating and freeing memory.",
+          "id": "memory-management"
+        },
+        {
+          "question": "What is event delegation?",
+          "answer": "Technique for handling events at a higher level in the DOM.",
+          "id": "event-delegation"
+        },
+        {
+          "question": "What is lazy loading?",
+          "answer": "Technique for deferring the loading of resources until needed.",
+          "id": "lazy-loading"
+        },
+        {
+          "question": "What are debouncing and throttling?",
+          "answer": "Techniques for controlling the rate of function execution.",
+          "id": "debouncing-throttling"
+        },
+        {
+          "question": "What are web workers?",
+          "answer": "JavaScript threads for running scripts in background.",
+          "id": "web-workers"
+        }
+      ]
+    }
+  ]
+}

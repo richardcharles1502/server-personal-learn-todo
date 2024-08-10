@@ -1,0 +1,102 @@
+{
+  "topics": [
+    {
+      "main_heading": "Node.js Concepts",
+      "id": "node-js-concepts",
+      "content": [
+        {
+          "title": "Event-Driven Architecture",
+          "description": "Node.js operates on an event-driven architecture, where events are emitted and event listeners are attached to handle these events. This allows for non-blocking I/O operations.",
+          "id": "event-driven-architecture"
+        },
+        {
+          "title": "Non-Blocking I/O",
+          "description": "Node.js uses non-blocking, asynchronous I/O to handle multiple operations simultaneously. This is achieved through callbacks, promises, and async/await.",
+          "id": "non-blocking-io"
+        },
+        {
+          "title": "Single Threaded",
+          "description": "Despite being single-threaded, Node.js can handle many concurrent connections thanks to its event loop and asynchronous nature.",
+          "id": "single-threaded"
+        },
+        {
+          "title": "Modules",
+          "description": "Node.js uses modules to organize and reuse code. The CommonJS module system is the default, allowing you to use `require()` to import modules and `module.exports` to export them.",
+          "id": "modules"
+        },
+        {
+          "title": "npm (Node Package Manager)",
+          "description": "npm is the package manager for Node.js, allowing you to install and manage dependencies for your project.",
+          "id": "npm-node-package-manager"
+        }
+      ]
+    },
+    {
+      "main_heading": "Express.js Concepts",
+      "id": "node-js-concepts",
+      "content": [
+        {
+          "title": "Middleware",
+          "description": "Middleware functions are functions that have access to the request object (`req`), the response object (`res`), and the next middleware function in the application’s request-response cycle. They can execute code, modify the request and response objects, end the request-response cycle, and call the next middleware in the stack.",
+          "id": "middleware"
+        },
+        {
+          "title": "Routing",
+          "description": "Routing refers to how an application’s endpoints (URIs) respond to client requests. Express provides a robust routing mechanism to handle HTTP requests for different routes using methods like `app.get()`, `app.post()`, `app.put()`, `app.delete()`, etc.",
+          "id": "routing"
+        },
+        {
+          "title": "Request and Response Objects",
+          "description": "The `req` object represents the HTTP request and contains properties like `req.params`, `req.query`, `req.body`, etc. The `res` object represents the HTTP response that an Express app sends when it gets an HTTP request.",
+          "id": "request-and-response-objects"
+        },
+        {
+          "title": "View Engines",
+          "description": "Express can use various view engines to render HTML pages. Popular view engines include EJS, Pug (formerly Jade), and Handlebars. These engines allow you to generate HTML with dynamic content.",
+          "id": "view-engines"
+        },
+        {
+          "title": "Static Files",
+          "description": "Express provides middleware to serve static files such as images, CSS, JavaScript, etc., using the `express.static` method.",
+          "id": "static-files"
+        },
+        {
+          "title": "Error Handling",
+          "description": "Express has a built-in error-handling mechanism. Middleware functions with four arguments (`err`, `req`, `res`, `next`) are used to handle errors.",
+          "id": "error-handling"
+        }
+      ]
+    },
+    {
+      "main_heading": "Commonly Used Middleware in Express.js",
+      "id": "node-js-concepts",
+      "content": [
+        {
+          "title": "body-parser",
+          "description": "Parses incoming request bodies in a middleware before your handlers, available under the `req.body` property. (Note: In recent versions of Express, body-parser is now part of the Express framework and can be used as `express.json()` and `express.urlencoded()`.",
+          "id": "body-parser"
+        },
+        {
+          "title": "cors",
+          "description": "Provides a middleware to enable CORS (Cross-Origin Resource Sharing) with various options.",
+          "id": "cors"
+        },
+        {
+          "title": "morgan",
+          "description": "HTTP request logger middleware for logging requests details.",
+          "id": "morgan"
+        },
+        {
+          "title": "cookie-parser",
+          "description": "Parse `Cookie` header and populate `req.cookies` with an object keyed by the cookie names.",
+          "id": "cookie-parser"
+        },
+        {
+          "title": "helmet",
+          "description": "Helps secure Express apps by setting various HTTP headers.",
+          "id": "helmet"
+        }
+      ]
+    }
+  ]
+}

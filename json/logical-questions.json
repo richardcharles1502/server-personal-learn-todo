@@ -1,0 +1,268 @@
+{
+    "topics": [
+      {
+        "main_heading": "Array Challenges",
+        "id": "array-challenges",
+        "content": [
+          {
+            "title": "Find the Missing and Repeated Number",
+            "description": "Given an array of integers where each integer is between 1 and N (inclusive), find the number that is missing and the number that is repeated.",
+            "example_input": "const arr = [3, 1, 3, 2, 5];",
+            "expected_output": "{ missing: 4, repeated: 3 }",
+            "id": "missing-repeated-number"
+          },
+          {
+            "title": "Check for Balanced Parentheses",
+            "description": "Write a function that checks if the given string of parentheses is balanced.",
+            "example_input": "const str = '({[]})';",
+            "expected_output": "true",
+            "id": "balanced-parentheses"
+          },
+          {
+            "title": "Find All Subsets",
+            "description": "Given an array of unique integers, write a function to find all possible subsets (the power set).",
+            "example_input": "const arr = [1, 2, 3];",
+            "expected_output": "[[], [1], [2], [3], [1, 2], [1, 3], [2, 3], [1, 2, 3]]",
+            "id": "find-all-subsets"
+          },
+          {
+            "title": "Longest Consecutive Sequence",
+            "description": "Given an unsorted array of integers, find the length of the longest consecutive elements sequence.",
+            "example_input": "const arr = [100, 4, 200, 1, 3, 2];",
+            "expected_output": "4 (because the longest consecutive sequence is [1, 2, 3, 4])",
+            "id": "longest-consecutive-sequence"
+          },
+          {
+            "title": "Two Sum",
+            "description": "Given an array of integers, return indices of the two numbers such that they add up to a specific target.",
+            "example_input": "const nums = [2, 7, 11, 15]; const target = 9;",
+            "expected_output": "[0, 1] (because nums[0] + nums[1] == 9)",
+            "id": "two-sum"
+          },
+          {
+            "title": "Merge Intervals",
+            "description": "Given a collection of intervals, merge all overlapping intervals.",
+            "example_input": "const intervals = [[1, 3], [2, 6], [8, 10], [15, 18]];",
+            "expected_output": "[[1, 6], [8, 10], [15, 18]]",
+            "id": "merge-intervals"
+          },
+          {
+            "title": "Find the Majority Element",
+            "description": "Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊n / 2⌋ times.",
+            "example_input": "const arr = [3, 2, 3];",
+            "expected_output": "3",
+            "id": "find-majority-element"
+          },
+          {
+            "title": "Rotate Array",
+            "description": "Given an array, rotate the array to the right by k steps, where k is non-negative.",
+            "example_input": "const arr = [1, 2, 3, 4, 5, 6, 7]; const k = 3;",
+            "expected_output": "[5, 6, 7, 1, 2, 3, 4]",
+            "id": "rotate-array"
+          },
+          {
+            "title": "First Missing Positive",
+            "description": "Given an unsorted integer array, find the smallest missing positive integer.",
+            "example_input": "const arr = [3, 4, -1, 1];",
+            "expected_output": "2",
+            "id": "first-missing-positive"
+          },
+          {
+            "title": "Product of Array Except Self",
+            "description": "Given an array nums of n integers where n > 1, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].",
+            "example_input": "const nums = [1, 2, 3, 4];",
+            "expected_output": "[24, 12, 8, 6]",
+            "id": "product-of-array-except-self"
+          }
+        ]
+      },
+      {
+        "main_heading": "Recursive Challenges",
+        "id": "recursive-challenges",
+        "content": [
+          {
+            "title": "Fibonacci Sequence",
+            "description": "Write a function to compute the Fibonacci sequence.",
+            "id": "fibonacci-sequence"
+          },
+          {
+            "title": "Factorial",
+            "description": "Write a function to compute the factorial of a number.",
+            "id": "factorial"
+          },
+          {
+            "title": "Sum to an Array",
+            "description": "Write a function to compute the sum of all elements in an array.",
+            "id": "sum-to-array"
+          },
+          {
+            "title": "Deep Clone an Object",
+            "description": "Write a function to perform a deep clone of an object.",
+            "id": "deep-clone-object"
+          },
+          {
+            "title": "Flatten a Nested Array",
+            "description": "Write a function to flatten a nested array, e.g., `[1,[2,[3,4],[5],6],7,8]`.",
+            "id": "flatten-nested-array"
+          },
+          {
+            "title": "Group Array of Objects by Property",
+            "description": "Write a function to group an array of objects by a specified property.",
+            "id": "group-array-by-property"
+          }
+        ]
+      },
+      {
+        "main_heading": "String Challenges",
+        "id": "string-challenges",
+        "content": [
+          {
+            "title": "Merge Two Arrays and Remove Duplicates",
+            "description": "Given two arrays, merge them and remove duplicates.",
+            "example_input": "arr1 = ['apple', 'banana', 'orange']; arr2 = ['banana', 'kiwi', 'apple'];",
+            "id": "merge-arrays-remove-duplicates"
+          },
+          {
+            "title": "Find Common Elements in Two Arrays",
+            "description": "Find common elements in two arrays.",
+            "example_input": "arr1 = ['apple', 'banana', 'orange']; arr2 = ['banana', 'kiwi', 'apple'];",
+            "id": "find-common-elements"
+          },
+          {
+            "title": "Find Most Frequent Element",
+            "description": "Find the most frequent element in an array.",
+            "example_input": "arr = ['apple', 'banana', 'apple', 'apple', 'banana', 'orange'];",
+            "id": "find-most-frequent-element"
+          },
+          {
+            "title": "Group Array of Objects by Property",
+            "description": "Group an array of objects by a specified property.",
+            "example_input": "arr = [{cat: 'fruit', name: 'apple'}, {cat: 'fruit', name: 'orange'}, {cat: 'veg', name: 'carrot'}];",
+            "id": "group-array-by-property"
+          }
+        ]
+      },
+      {
+        "main_heading": "Additional Challenges",
+        "id": "additional-challenges",
+        "content": [
+          {
+            "title": "Find Even or Odd",
+            "description": "Determine if numbers in an array are even or odd.",
+            "example_input": "[5, 6, 7, 1, 2, 3, 4];",
+            "id": "find-even-or-odd"
+          },
+          {
+            "title": "Find Last Digit in a Number",
+            "description": "Find the last digit of a given number.",
+            "id": "find-last-digit"
+          },
+          {
+            "title": "Reverse Number",
+            "description": "Reverse the digits of a given number.",
+            "id": "reverse-number"
+          },
+          {
+            "title": "Count Digits in a Number",
+            "description": "Count the number of digits in a given number.",
+            "id": "count-digits"
+          },
+          {
+            "title": "Power of Number",
+            "description": "Calculate the power of a number.",
+            "id": "power-of-number"
+          },
+          {
+            "title": "GCD",
+            "description": "Compute the greatest common divisor of two numbers.",
+            "id": "gcd"
+          },
+          {
+            "title": "Print All Divisors of a Number",
+            "description": "Print all divisors of a given number.",
+            "id": "print-all-divisors"
+          },
+          {
+            "title": "Prime Number",
+            "description": "Check if a number is prime.",
+            "id": "prime-number"
+          },
+          {
+            "title": "Armstrong Number",
+            "description": "Check if a number is an Armstrong number.",
+            "id": "armstrong-number"
+          },
+          {
+            "title": "Palindrome of Number",
+            "description": "Check if a number is a palindrome.",
+            "id": "palindrome-number"
+          },
+          {
+            "title": "Square Root",
+            "description": "Compute the square root of a number.",
+            "id": "square-root"
+          },
+          {
+            "title": "Perfect Number",
+            "description": "Check if a number is a perfect number.",
+            "id": "perfect-number"
+          },
+          {
+            "title": "Fibonacci Number",
+            "description": "Compute the Fibonacci number for a given position.",
+            "id": "fibonacci-number"
+          }
+        ]
+      },
+      {
+        "main_heading": "Algorithmic Techniques",
+        "id": "algorithmic-techniques",
+        "content": [
+          {
+            "title": "Sliding Window",
+            "description": "Use the sliding window technique to solve problems involving arrays or lists.",
+            "id": "sliding-window"
+          },
+          {
+            "title": "Hashing",
+            "description": "Apply hashing techniques to efficiently solve problems.",
+            "id": "hashing"
+          },
+          {
+            "title": "Prefix Sum",
+            "description": "Use prefix sum arrays to optimize range queries.",
+            "id": "prefix-sum"
+          },
+          {
+            "title": "Binary Search",
+            "description": "Apply binary search for efficient searching in sorted arrays.",
+            "id": "binary-search"
+          },
+          {
+            "title": "Divide and Conquer",
+            "description": "Use the divide and conquer strategy to solve complex problems.",
+            "id": "divide-and-conquer"
+          }
+        ]
+      },
+      {
+        "main_heading": "Completed LeetCode Tasks",
+        "id": "completed-leetcode-tasks",
+        "content": [
+          {
+            "title": "Median of Two Sorted Arrays",
+            "description": "Solve the problem of finding the median of two sorted arrays.",
+            "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/1280832062/",
+            "id": "median-of-two-sorted-arrays"
+          },
+          {
+            "title": "Two Sum",
+            "description": "Solve the problem of finding two indices in an array that add up to a specific target.",
+            "url": "https://leetcode.com/problems/two-sum/submissions/1280663557/",
+            "id": "two-sum"
+          }
+        ]
+      }
+    ]
+  }
+  

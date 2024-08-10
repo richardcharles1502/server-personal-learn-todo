@@ -1,0 +1,132 @@
+{
+    "topics": [
+      {
+        "main_heading": "Array Challenges",
+        "id": "array-challenges",
+        "content": [
+          {
+            "title": "Reverse an Array",
+            "description": "Write a function to reverse the elements of an array without using the built-in `reverse` method.",
+            "id": "reverse-array"
+          },
+          {
+            "title": "Find Duplicates",
+            "description": "Create a function that finds and returns any duplicate elements in an array.",
+            "id": "find-duplicates"
+          },
+          {
+            "title": "Rotate Array",
+            "description": "Write a function to rotate the elements of an array to the right by a given number of steps.",
+            "id": "rotate-array"
+          },
+          {
+            "title": "Sum of Two Numbers",
+            "description": "Given an array of integers and a target sum, find two numbers in the array that add up to the target sum.",
+            "id": "sum-of-two-numbers"
+          },
+          {
+            "title": "Remove Duplicates",
+            "description": "Create a function that removes duplicate elements from an array and returns the new array without modifying the original one.",
+            "id": "remove-duplicates"
+          },
+          {
+            "title": "Array Sum",
+            "description": "Write a function to find the sum of all elements in an array.",
+            "id": "array-sum"
+          },
+          {
+            "title": "Array Average",
+            "description": "Write a function to find the average of all elements in an array.",
+            "id": "array-average"
+          },
+          {
+            "title": "Array Max",
+            "description": "Write a function to find the maximum value in an array.",
+            "id": "array-max"
+          },
+          {
+            "title": "Array Min",
+            "description": "Write a function to find the minimum value in an array.",
+            "id": "array-min"
+          },
+          {
+            "title": "Array Sorting",
+            "description": "Write a function to sort an array in ascending or descending order.",
+            "id": "array-sorting"
+          },
+          {
+            "title": "Array Unique",
+            "description": "Write a function to remove duplicate elements from an array.",
+            "id": "array-unique"
+          },
+          {
+            "title": "Array Intersection",
+            "description": "Write a function to find the intersection of two arrays (i.e., elements that appear in both arrays).",
+            "id": "array-intersection"
+          },
+          {
+            "title": "Array Union",
+            "description": "Write a function to find the union of two arrays (i.e., all unique elements from both arrays).",
+            "id": "array-union"
+          },
+          {
+            "title": "Array Difference",
+            "description": "Write a function to find the difference between two arrays (i.e., elements that appear in the first array but not in the second array).",
+            "id": "array-difference"
+          },
+          {
+            "title": "Array Chunking",
+            "description": "Write a function to split an array into chunks of a specified size.",
+            "id": "array-chunking"
+          },
+          {
+            "title": "Array Flattening",
+            "description": "Write a function to flatten a nested array.",
+            "id": "array-flattening"
+          }
+        ]
+      },
+      {
+        "main_heading": "Object Challenges",
+        "id": "object-challenges",
+        "content": [
+          {
+            "title": "Object Deep Comparison",
+            "description": "Write a function to compare two objects and determine if they are deeply equal (i.e., have the same properties and values).",
+            "id": "object-deep-comparison"
+          },
+          {
+            "title": "Object Transformation",
+            "description": "Create a function that takes an object with nested properties and converts it into a flat object. For example, `{ a: 1, b: { c: 2 } }` should become `{ a: 1, 'b.c': 2 }`.",
+            "id": "object-transformation"
+          },
+          {
+            "title": "Object Filtering",
+            "description": "Write a function that filters out properties from an object based on a given condition. For instance, filter out properties with values less than a certain threshold.",
+            "id": "object-filtering"
+          },
+          {
+            "title": "Object Intersection",
+            "description": "Implement a function that returns a new object containing only the common properties between two objects.",
+            "id": "object-intersection"
+          },
+          {
+            "title": "Object Sorting",
+            "description": "Create a function to sort an array of objects based on a specific property.",
+            "id": "object-sorting"
+          },
+          {
+            "title": "Object Key Count",
+            "description": "Write a function to count the number of keys in an object.",
+            "id": "object-key-count"
+          },
+          {
+            "title": "Object Value Count",
+            "description": "Write a function to count the number of occurrences of each value in an object.",
+            "id": "object-value-count"
+          }
+        ]
+      }
+    ]
+  }
+  

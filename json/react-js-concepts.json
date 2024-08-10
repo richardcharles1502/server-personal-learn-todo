@@ -1,0 +1,301 @@
+{
+    "topics": [
+      {
+        "main_heading": "React Concepts",
+        "id": "react-concepts",
+        "content": [
+          {
+            "title": "Component-Based Architecture",
+            "description": "It is the js file and import and export of const and functions.",
+            "id": "component-based-architecture"
+          },
+          {
+            "title": "JSX (JavaScript XML)",
+            "description": "It is just the HTML tags are called JSX and it uses {} to embed the value.",
+            "id": "jsx"
+          },
+          {
+            "title": "Virtual DOM",
+            "description": "When rendering the selective DOM based on the make in React rendering process, it's highly efficient. For example, in `setCounter`, when the button is clicked, the state is updated, triggering a re-render. React uses the Virtual DOM to efficiently update only the parts of the actual DOM that have changed, resulting in improved performance.",
+            "id": "virtual-dom"
+          },
+          {
+            "title": "State and Props",
+            "description": "State: In React, a 'state' refers to an object that holds data relevant to a component. It's managed within the component and can be changed using the `setState` method. Props: Props (short for properties) are immutable data passed to a component from its parent. They are read-only and cannot be modified within the component.",
+            "id": "state-props"
+          },
+          {
+            "title": "Lifecycle Methods",
+            "description": "Methods include `componentDidMount`, `componentDidUpdate`, `componentWillUnmount`.",
+            "id": "lifecycle-methods"
+          },
+          {
+            "title": "One-Way Data Binding",
+            "description": "Data binding in React is one-way, meaning that data flows in a single direction, from parent to child components.",
+            "id": "one-way-data-binding"
+          },
+          {
+            "title": "Redux",
+            "description": "State management tool including concepts like Store, Actions, Reducers, Dispatch, Provider, Selectors, Middleware, Immutable Updates, and Async Actions.",
+            "id": "redux"
+          },
+          {
+            "title": "Hooks",
+            "description": "Hooks include `useState`, `useEffect`, `useContext`, `useReducer`, `useMemo`, and `useCallback`. `useReducer` manages complex state logic, `useEffect` handles side effects, `useMemo` optimizes performance by memoizing values, and `useCallback` memoizes callback functions.",
+            "id": "hooks"
+          },
+          {
+            "title": "Error Boundary",
+            "description": "A React component that catches JavaScript errors in its child components and displays a fallback UI instead of crashing the entire component tree.",
+            "id": "error-boundary"
+          },
+          {
+            "title": "Event Handling",
+            "description": "Handling user interactions and other events in React components.",
+            "id": "event-handling"
+          },
+          {
+            "title": "Conditional Rendering",
+            "description": "Rendering components or elements based on certain conditions.",
+            "id": "conditional-rendering"
+          },
+          {
+            "title": "Forms in React",
+            "description": "Handling form inputs and submissions using React.",
+            "id": "forms-in-react"
+          },
+          {
+            "title": "React Router",
+            "description": "Routing in React using `react-router-dom` including `BrowserRouter`, `Routes`, and `NavLink`.",
+            "id": "react-router"
+          },
+          {
+            "title": "Higher-Order Components",
+            "description": "A Higher-Order Component (HOC) is a function that takes a component and returns a new component with added functionality.",
+            "id": "higher-order-components"
+          },
+          {
+            "title": "Spread Operator",
+            "description": "The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.",
+            "id": "spread-operator"
+          },
+          {
+            "title": "Rest Operator",
+            "description": "A rest operator is a type of parameter that gets all of the remaining parameters of a function call via an Array. (e.g., `function sum(...numbers) {`)",
+            "id": "rest-operator"
+          },
+          {
+            "title": "Updating Values from Child Component",
+            "description": "Using callback functions to update values in a parent component from a child component.",
+            "id": "child-to-parent-data-pass"
+          }
+        ]
+      },
+      {
+        "main_heading": "Main Hooks",
+        "id": "hooks",
+        "content": [
+          {
+            "title": "useState",
+            "description": "The `useState` hook is used to add state to functional components. It returns an array with two elements: the current state and a function to update it.",
+            "id": "use-state"
+          },
+          {
+            "title": "useEffect",
+            "description": "The `useEffect` hook is used to perform side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM. It runs after every render by default, but can be controlled with dependencies.",
+            "id": "use-effect"
+          },
+          {
+            "title": "useContext",
+            "description": "The `useContext` hook allows you to access the context value directly without wrapping your component in a `Context.Consumer` component. It simplifies the consumption of context in functional components.",
+            "id": "use-context"
+          },
+          {
+            "title": "useReducer",
+            "description": "The `useReducer` hook is used to manage more complex state logic in functional components. It returns the current state and a dispatch function, and relies on a reducer function to determine state updates.",
+            "id": "use-reducer"
+          },
+          {
+            "title": "useMemo",
+            "description": "The `useMemo` hook is used to optimize performance by memoizing the result of a computation. It returns a memoized value and only recalculates it when its dependencies change.",
+            "id": "use-memo"
+          },
+          {
+            "title": "useCallback",
+            "description": "The `useCallback` hook returns a memoized callback function. It is similar to `useMemo`, but it memoizes a function rather than a value. It helps to prevent unnecessary renders by maintaining the same reference of the callback function across renders.",
+            "id": "use-callback"
+          }
+        ]
+      },      
+      {
+        "main_heading": "Redux Concepts",
+        "id": "redux-concepts",
+        "content": [
+          {
+            "title": "Store",
+            "description": "Centralized state container in Redux.",
+            "id": "store"
+          },
+          {
+            "title": "Actions",
+            "description": "Plain JavaScript objects that describe changes to the state.",
+            "id": "actions"
+          },
+          {
+            "title": "Reducers",
+            "description": "Functions that specify how the state changes in response to an action.",
+            "id": "reducers"
+          },
+          {
+            "title": "Dispatch",
+            "description": "Method used to send actions to the Redux store.",
+            "id": "dispatch"
+          },
+          {
+            "title": "Provider",
+            "description": "Wraps the application and makes the Redux store available to all components.",
+            "id": "provider"
+          },
+          {
+            "title": "Selectors",
+            "description": "Functions used to extract data from the Redux store.",
+            "id": "selectors"
+          },
+          {
+            "title": "Middleware",
+            "description": "Functions that extend Redux's abilities, such as handling asynchronous actions.",
+            "id": "middleware"
+          },
+          {
+            "title": "Immutable Updates",
+            "description": "Techniques to update state in an immutable way.",
+            "id": "immutable-updates"
+          },
+          {
+            "title": "Async Actions",
+            "description": "Handling asynchronous operations in Redux.",
+            "id": "async-actions"
+          }
+        ]
+      },
+      {
+        "main_heading": "Interview Questions",
+        "id": "interview-questions",
+        "content": [
+          {
+            "title": "Closure",
+            "description": "Understanding closures in JavaScript.",
+            "id": "closure"
+          },
+          {
+            "title": "Use of Middleware",
+            "description": "Explaining the role and usage of middleware in Redux.",
+            "id": "use-of-middleware"
+          },
+          {
+            "title": "Optimizing React Code",
+            "description": "Techniques for improving React code performance.",
+            "id": "optimizing-react-code"
+          },
+          {
+            "title": "Virtual DOM Concept",
+            "description": "How the Virtual DOM works in React.",
+            "id": "virtual-dom-concept"
+          },
+          {
+            "title": "Promises in Angular",
+            "description": "Angular uses observables and subscribers instead of promises.",
+            "id": "promises-in-angular"
+          },
+          {
+            "title": "Preventing Data Breach in JS",
+            "description": "Methods to secure JavaScript applications.",
+            "id": "preventing-data-breach"
+          },
+          {
+            "title": "OOP in JavaScript",
+            "description": "Object-Oriented Programming concepts in JavaScript.",
+            "id": "oop-in-js"
+          }
+        ]
+      },
+      {
+        "main_heading": "Additional Questions",
+        "id": "additional-questions",
+        "content": [
+          {
+            "title": "Class vs Functional Component",
+            "description": "Comparison of class and functional components in React in terms of performance.",
+            "id": "class-vs-functional-component"
+          },
+          {
+            "title": "Create a Form and Submit",
+            "description": "Creating and handling form submissions in React.",
+            "id": "create-form-submit"
+          },
+          {
+            "title": "Node.js vs PHP",
+            "description": "Comparison of Node.js and PHP.",
+            "id": "node-js-vs-php"
+          },
+          {
+            "title": "Form Validation with Yup",
+            "description": "Using Yup for form validation.",
+            "id": "form-validation-yup"
+          },
+          {
+            "title": "Arrow Functions",
+            "description": "Benefits of using arrow functions including simplified callbacks and no binding of `this`.",
+            "id": "arrow-functions"
+          },
+          {
+            "title": "React's Superiority",
+            "description": "Reasons why React is superior compared to other front-end frameworks.",
+            "id": "react-superiority"
+          },
+          {
+            "title": "Error Handling in React",
+            "description": "Ways to handle errors in React, such as using try/catch blocks.",
+            "id": "error-handling-react"
+          },
+          {
+            "title": "Child to Parent Data Passing",
+            "description": "Using callback functions to pass data from child components to parent components.",
+            "id": "child-to-parent-data"
+          },
+          {
+            "title": "Dispatch",
+            "description": "Triggering actions to update the state in Redux.",
+            "id": "dispatch"
+          }
+        ]
+      },
+      {
+        "main_heading": "JavaScript Questions",
+        "id": "js-questions",
+        "content": [
+          {
+            "title": "Handling Multiple Promises",
+            "description": "Techniques for dealing with multiple promises in JavaScript.",
+            "id": "handling-multiple-promises"
+          },
+          {
+            "title": "Common Elements from Arrays",
+            "description": "Finding common elements between two arrays.",
+            "id": "common-elements"
+          },
+          {
+            "title": "Uncommon Elements from Arrays",
+            "description": "Finding elements that are not common between two arrays.",
+            "id": "uncommon-elements"
+          },
+          {
+            "title": "Difference between Map and ForEach",
+            "description": "Comparing the `map` and `forEach` functions in JavaScript.",
+            "id": "map-vs-foreach"
+          }
+        ]
+      }
+    ]
+  }
+  

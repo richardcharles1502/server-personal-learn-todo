@@ -1,0 +1,220 @@
+{
+    "topics": [
+      {
+        "main_heading": "Introduction of Data Structures",
+        "id": "introduction",
+        "content": [
+          {
+            "title": "Overview of Data Structures and Algorithms",
+            "description": "Introduction to the basics of data structures and algorithms, and their significance in programming.",
+            "id": "overview-of-data-structures-and-algorithms"
+          },
+          {
+            "title": "Importance of Data Structures and Algorithms in JavaScript",
+            "description": "Discussion on the role and importance of data structures and algorithms in JavaScript programming.",
+            "id": "importance-in-javascript"
+          },
+          {
+            "title": "Big O Notation and Complexity Analysis",
+            "description": "Explanation of Big O Notation and how to analyze the complexity of algorithms.",
+            "id": "big-o-notation-and-complexity-analysis"
+          }
+        ]
+      },
+      {
+        "main_heading": "Basic Data Structures",
+        "id": "basic-data-structures",
+        "content": [
+          {
+            "title": "Arrays",
+            "description": "Introduction to arrays, their basic operations, dynamic arrays, and multidimensional arrays.",
+            "id": "arrays"
+          },
+          {
+            "title": "Linked Lists",
+            "description": "Understanding different types of linked lists including singly, doubly, and circular linked lists.",
+            "id": "linked-lists"
+          },
+          {
+            "title": "Stacks",
+            "description": "Implementation of stacks and their applications in various algorithms.",
+            "id": "stacks"
+          },
+          {
+            "title": "Queues",
+            "description": "Implementation of queues, circular queues, deque, and priority queues.",
+            "id": "queues"
+          }
+        ]
+      },
+      {
+        "main_heading": "Advanced Data Structures",
+        "id": "advanced-data-structures",
+        "content": [
+          {
+            "title": "Hash Tables",
+            "description": "Understanding hash functions, collision handling, and implementation of hash tables.",
+            "id": "hash-tables"
+          },
+          {
+            "title": "Trees",
+            "description": "Introduction to various tree structures including binary trees, binary search trees, AVL trees, red-black trees, B-trees, and segment trees.",
+            "id": "trees"
+          },
+          {
+            "title": "Heaps",
+            "description": "Exploration of binary heaps, min heap, max heap, and heap operations including heap sort.",
+            "id": "heaps"
+          },
+          {
+            "title": "Graphs",
+            "description": "Understanding graph representations, traversal algorithms, shortest path algorithms, and minimum spanning trees.",
+            "id": "graphs"
+          }
+        ]
+      },
+      {
+        "main_heading": "Fundamental Algorithms",
+        "id": "fundamental-algorithms",
+        "content": [
+          {
+            "title": "Sorting Algorithms",
+            "description": "Detailed exploration of various sorting algorithms including bubble sort, selection sort, insertion sort, merge sort, quick sort, heap sort, and radix sort.",
+            "id": "sorting-algorithms"
+          },
+          {
+            "title": "Searching Algorithms",
+            "description": "Introduction to different searching algorithms such as linear search, binary search, and interpolation search.",
+            "id": "searching-algorithms"
+          },
+          {
+            "title": "String Algorithms",
+            "description": "String matching algorithms, including Knuth-Morris-Pratt, Rabin-Karp, and data structures like tries and suffix trees/arrays.",
+            "id": "string-algorithms"
+          }
+        ]
+      },
+      {
+        "main_heading": "Dynamic Programming and Greedy Algorithms",
+        "id": "dynamic-programming-and-greedy-algorithms",
+        "content": [
+          {
+            "title": "Introduction to Dynamic Programming",
+            "description": "Explanation of dynamic programming concepts including memoization and tabulation, along with common dynamic programming problems.",
+            "id": "introduction-to-dynamic-programming"
+          },
+          {
+            "title": "Greedy Algorithms",
+            "description": "Understanding greedy algorithms and their applications, with examples such as activity selection and Huffman coding.",
+            "id": "greedy-algorithms"
+          }
+        ]
+      },
+      {
+        "main_heading": "Advanced Topics",
+        "id": "advanced-topics",
+        "content": [
+          {
+            "title": "Backtracking",
+            "description": "Exploration of backtracking algorithms, including the N-Queens problem and Sudoku solver.",
+            "id": "backtracking"
+          },
+          {
+            "title": "Divide and Conquer",
+            "description": "Introduction to divide and conquer algorithms, including quick sort, merge sort, and the closest pair of points problem.",
+            "id": "divide-and-conquer"
+          },
+          {
+            "title": "Bit Manipulation",
+            "description": "Overview of bitwise operations and common bit manipulation techniques.",
+            "id": "bit-manipulation"
+          },
+          {
+            "title": "Computational Geometry",
+            "description": "Study of computational geometry topics like convex hull and line intersection.",
+            "id": "computational-geometry"
+          }
+        ]
+      },
+      {
+        "main_heading": "Algorithms for Real-World Problems",
+        "id": "algorithms-for-real-world-problems",
+        "content": [
+          {
+            "title": "Network Flow Algorithms",
+            "description": "Study of network flow algorithms including the Ford-Fulkerson and Edmonds-Karp algorithms.",
+            "id": "network-flow-algorithms"
+          },
+          {
+            "title": "Graph Coloring",
+            "description": "Introduction to graph coloring techniques.",
+            "id": "graph-coloring"
+          },
+          {
+            "title": "Travelling Salesman Problem (TSP)",
+            "description": "Discussion on the Travelling Salesman Problem and various approaches to solve it.",
+            "id": "travelling-salesman-problem"
+          },
+          {
+            "title": "Approximation Algorithms",
+            "description": "Overview of approximation algorithms used for solving NP-hard problems.",
+            "id": "approximation-algorithms"
+          }
+        ]
+      },
+      {
+        "main_heading": "Practice and Problem Solving",
+        "id": "practice-and-problem-solving",
+        "content": [
+          {
+            "title": "Coding Practice Platforms",
+            "description": "Introduction to coding practice platforms such as LeetCode, HackerRank, and CodeSignal.",
+            "id": "coding-practice-platforms"
+          },
+          {
+            "title": "Common Interview Questions",
+            "description": "A collection of common interview questions related to data structures and algorithms.",
+            "id": "common-interview-questions"
+          },
+          {
+            "title": "Problem-Solving Techniques",
+            "description": "Strategies and techniques for effective problem-solving in coding interviews.",
+            "id": "problem-solving-techniques"
+          }
+        ]
+      },
+      {
+        "main_heading": "Conclusion",
+        "id": "conclusion",
+        "content": [
+          {
+            "title": "Summary of Key Concepts",
+            "description": "Recap of the key concepts covered in the course.",
+            "id": "summary-of-key-concepts"
+          },
+          {
+            "title": "Next Steps in Learning Advanced Topics",
+            "description": "Guidance on what to learn next after mastering the basics of data structures and algorithms.",
+            "id": "next-steps-in-learning-advanced-topics"
+          },
+          {
+            "title": "Resources for Further Learning",
+            "description": "A list of resources including books, online courses, and tutorials for further learning.",
+            "id": "resources-for-further-learning"
+          }
+        ]
+      },
+      {
+        "main_heading": "DS basic concepts",
+        "id": "video-concepts",
+        "video": [
+          {
+            "id": "main-ds-concept",
+            "title":"main-ds-concept",
+            "url":"https://www.youtube.com/embed/t4UNV4ncvRs"
+          }
+        ]
+      }
+    ]
+  }
+  

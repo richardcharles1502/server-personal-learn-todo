@@ -1,0 +1,106 @@
+{
+    "topics": [
+      {
+        "main_heading": "Common Interview Questions - MERN",
+        "id": "common-interview-questions-mern",
+        "content": [
+          {
+            "title": "JavaScript",
+            "description": "Questions related to JavaScript fundamentals and concepts.",
+            "id": "javascript"
+          },
+          {
+            "title": "How Async Works",
+            "description": "Explanation of asynchronous programming in JavaScript and a small example program.",
+            "id": "async-works"
+          },
+          {
+            "title": "Console.log, setTimeout, and Promise Execution Order",
+            "description": "Understand the order of execution for `console.log`, `setTimeout`, and `Promise`.",
+            "id": "execution-order"
+          },
+          {
+            "title": "Difference Between Promise and Await",
+            "description": "Compare `Promise` and `await` in JavaScript for handling asynchronous operations.",
+            "id": "promise-vs-await"
+          },
+          {
+            "title": "Observables and Async",
+            "description": "Compare `Observables` and `async` functions, and their usage in JavaScript.",
+            "id": "observables-vs-async"
+          },
+          {
+            "title": "Subscribe and Unsubscribe",
+            "description": "Understanding subscription management and handling unsubscriptions.",
+            "id": "subscribe-unsubscribe"
+          },
+          {
+            "title": "Call(), Apply(), and Bind() Methods",
+            "description": "Explain the `call()`, `apply()`, and `bind()` methods and their use cases.",
+            "id": "call-apply-bind"
+          },
+          {
+            "title": "Closures in JavaScript",
+            "description": "Concept and examples of closures in JavaScript.",
+            "id": "closures"
+          },
+          {
+            "title": "Difference Between var, let, and const",
+            "description": "Compare `var`, `let`, and `const` for variable declaration in JavaScript.",
+            "id": "var-let-const"
+          },
+          {
+            "title": "Class vs Functional Component (Performance)",
+            "description": "Comparison of class components and functional components in terms of performance.",
+            "id": "class-vs-functional-performance"
+          },
+          {
+            "title": "How Hooks Help Over Lifecycle Methods",
+            "description": "How React hooks offer advantages over traditional lifecycle methods.",
+            "id": "hooks-vs-lifecycle-methods"
+          },
+          {
+            "title": "Virtual DOM",
+            "description": "Explanation of how the Virtual DOM works in React and its benefits.",
+            "id": "virtual-dom"
+          },
+          {
+            "title": "Redux (State Management Tool)",
+            "description": "Understanding Redux for state management, including Redux with Thunk or Redux Saga.",
+            "id": "redux"
+          },
+          {
+            "title": "Handling Routes",
+            "description": "How to handle routing in React applications using libraries like `react-router-dom`.",
+            "id": "handling-routes"
+          },
+          {
+            "title": "Framework Expertise",
+            "description": "Knowledge about frameworks like Express in Node.js.",
+            "id": "framework-expertise"
+          },
+          {
+            "title": "Handling CRUD Operations",
+            "description": "Managing Create, Read, Update, Delete operations in Node.js.",
+            "id": "crud-operations"
+          },
+          {
+            "title": "How Streams Work",
+            "description": "Explanation of streams in Node.js and their usage.",
+            "id": "streams"
+          },
+          {
+            "title": "Handling Multiple Processes",
+            "description": "Managing multiple processes in Node.js using tools like Docker, Kubernetes, and AWS for load balancing.",
+            "id": "multiple-processes"
+          },
+          {
+            "title": "Difference Between SQL and NoSQL",
+            "description": "Comparison of SQL and NoSQL databases in terms of structure, flexibility, and use cases.",
+            "id": "sql-vs-nosql"
+          }
+        ]
+      }
+    ]
+  }
+  

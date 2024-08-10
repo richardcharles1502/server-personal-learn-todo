@@ -1,0 +1,575 @@
+{
+  "topics": [
+    {
+      "main_heading": "JavaScript main Concepts list",
+      "id": "js-concepts",
+      "list": [
+        {
+          "title": "Call Stack",
+          "id": "call-stack"
+        },
+        {
+          "title": "Primitive Types",
+          "id": "primitive-types"
+        },
+        {
+          "title": "Value Types and Reference Types",
+          "id": "value-reference-types"
+        },
+        {
+          "title": "Implicit, Explicit, Nominal, Structuring and Duck Typing",
+          "id": "typing-concepts"
+        },
+        {
+          "title": "== vs === vs typeof",
+          "id": "equality-operators"
+        },
+        {
+          "title": "Function Scope, Block Scope and Lexical Scope",
+          "id": "scope-concepts"
+        },
+        {
+          "title": "Expression vs Statement",
+          "id": "expression-vs-statement"
+        },
+        {
+          "title": "IIFE, Modules and Namespaces",
+          "id": "iife-modules-namespaces"
+        },
+        {
+          "title": "Message Queue and Event Loop",
+          "id": "event-loop"
+        },
+        {
+          "title": "setTimeout, setInterval and requestAnimationFrame",
+          "id": "timing-functions"
+        },
+        {
+          "title": "JavaScript Engines",
+          "id": "js-engines"
+        },
+        {
+          "title": "Bitwise Operators, Type Arrays and Array Buffers",
+          "id": "bitwise-operators-typed-arrays"
+        },
+        {
+          "title": "DOM and Layout Trees",
+          "id": "dom-layout-trees"
+        },
+        {
+          "title": "Factories and Classes",
+          "id": "factories-classes"
+        },
+        {
+          "title": "this, call, apply and bind",
+          "id": "this-call-apply-bind"
+        },
+        {
+          "title": "new, Constructor, instanceof and Instances",
+          "id": "constructor-instanceof"
+        },
+        {
+          "title": "Prototype Inheritance and Prototype Chain",
+          "id": "prototype-inheritance-chain"
+        },
+        {
+          "title": "Object.create and Object.assign",
+          "id": "object-create-assign"
+        },
+        {
+          "title": "map, reduce, filter",
+          "id": "array-methods"
+        },
+        {
+          "title": "Pure Functions, Side Effects, State Mutation and Event Propagation",
+          "id": "functional-programming-concepts"
+        },
+        {
+          "title": "Closures",
+          "id": "closures"
+        },
+        {
+          "title": "High Order Functions",
+          "id": "high-order-functions"
+        },
+        {
+          "title": "Recursion",
+          "id": "recursion"
+        },
+        {
+          "title": "Collections and Generators",
+          "id": "collections-generators"
+        },
+        {
+          "title": "Promises",
+          "id": "promises"
+        },
+        {
+          "title": "async/await",
+          "id": "async-await"
+        },
+        {
+          "title": "Data Structures",
+          "id": "data-structures"
+        },
+        {
+          "title": "Expensive Operation and Big O Notation",
+          "id": "big-o-notation"
+        },
+        {
+          "title": "Algorithms",
+          "id": "algorithms"
+        },
+        {
+          "title": "Inheritance, Polymorphism and Code Reuse",
+          "id": "inheritance-polymorphism"
+        },
+        {
+          "title": "Design Patterns",
+          "id": "design-patterns"
+        },
+        {
+          "title": "Partial Applications, Currying, Compose and Pipe",
+          "id": "functional-techniques"
+        },
+        {
+          "title": "Clean Code",
+          "id": "clean-code"
+        }
+      ]
+    },
+    {
+      "main_heading": "Basic Concepts",
+      "id": "basic-concepts",
+      "qa": [
+        {
+          "question": "What are the different data types in JavaScript?",
+          "answer": "Numbers, Strings, Booleans, Objects, Undefined, Null, Symbol, BigInt.",
+          "id": "data-types"
+        },
+        {
+          "question": "How does `let`, `const`, and `var` differ?",
+          "answer": "`var` is function-scoped, `let` and `const` are block-scoped. `const` is for constant values and cannot be reassigned.",
+          "id": "let-const-var"
+        },
+        {
+          "question": "Explain type coercion in JavaScript.",
+          "answer": "Automatic or implicit conversion of values from one data type to another.",
+          "id": "type-coercion"
+        },
+        {
+          "question": "What is the difference between `==` and `===`?",
+          "answer": "`==` checks for value equality with type coercion, while `===` checks for both value and type equality.",
+          "id": "equality-operators"
+        }
+      ]
+    },
+    {
+      "main_heading": "Functions and Scope",
+      "id": "functions-and-scope",
+      "qa": [
+        {
+          "question": "What are higher-order functions?",
+          "answer": "Functions that take other functions as arguments or return them.",
+          "id": "higher-order-functions"
+        },
+        {
+          "question": "Explain closures in JavaScript.",
+          "answer": "Functions that retain access to their lexical scope even when the function is executed outside that scope.",
+          "id": "closures"
+        },
+        {
+          "question": "What is the purpose of the `this` keyword?",
+          "answer": "Refers to the object that is executing the current function.",
+          "id": "this-keyword"
+        },
+        {
+          "question": "What is the difference between function declarations and function expressions?",
+          "answer": "Function declarations are hoisted and can be called before they are defined, while function expressions are not hoisted.",
+          "id": "function-declarations-expressions"
+        }
+      ]
+    },
+    {
+      "main_heading": "Objects and Prototypes",
+      "id": "objects-and-prototypes",
+      "qa": [
+        {
+          "question": "How does prototypal inheritance work?",
+          "answer": "Objects inherit properties and methods from their prototype, which is another object.",
+          "id": "prototypal-inheritance"
+        },
+        {
+          "question": "What is a closure and how is it used?",
+          "answer": "A closure is a function that captures the lexical bindings of the scope in which it is defined.",
+          "id": "closure-usage"
+        },
+        {
+          "question": "Explain the difference between `Object.create()` and class inheritance.",
+          "answer": "`Object.create()` creates a new object with the specified prototype object and properties, while class inheritance uses the `class` keyword and `extends` to create a subclass.",
+          "id": "object-create-vs-class-inheritance"
+        }
+      ]
+    },
+    {
+      "main_heading": "Arrays and Iteration",
+      "id": "arrays-and-iteration",
+      "qa": [
+        {
+          "question": "What is the difference between `map()`, `filter()`, and `forEach()`?",
+          "answer": "`map()` transforms each element and returns a new array, `filter()` returns a new array with elements that pass a condition, `forEach()` executes a function on each element but returns `undefined`.",
+          "id": "map-filter-foreach"
+        },
+        {
+          "question": "How do you remove duplicates from an array?",
+          "answer": "Using a `Set` or array methods like `filter()` and `indexOf()`.",
+          "code_snippet": "const uniqueArray = [...new Set(array)];",
+          "id": "remove-duplicates-array"
+        }
+      ]
+    },
+    {
+      "main_heading": "Asynchronous JavaScript",
+      "id": "asynchronous-javascript",
+      "qa": [
+        {
+          "question": "Explain the event loop in JavaScript.",
+          "answer": "The event loop allows JavaScript to perform non-blocking operations by offloading operations to the system kernel whenever possible.",
+          "id": "event-loop"
+        },
+        {
+          "question": "What are promises and how do they work?",
+          "answer": "Promises represent the eventual completion (or failure) of an asynchronous operation and its resulting value. They have methods like `then()`, `catch()`, and `finally()`.",
+          "id": "promises"
+        },
+        {
+          "question": "What is the difference between `async` and `defer` attributes in script tags?",
+          "answer": "`async` loads the script asynchronously and executes it as soon as it's available, while `defer` loads the script asynchronously but executes it only after the document has been parsed.",
+          "id": "async-defer"
+        }
+      ]
+    },
+    {
+      "main_heading": "Error Handling",
+      "id": "error-handling",
+      "qa": [
+        {
+          "question": "How do you handle errors in JavaScript?",
+          "answer": "Using `try`, `catch`, `finally`, and `throw`.",
+          "id": "error-handling"
+        },
+        {
+          "question": "What is the difference between `throw` and `return`?",
+          "answer": "`throw` is used to throw an exception, stopping the current function execution and propagating the error up the call stack, while `return` is used to exit a function and optionally pass a value back to the caller.",
+          "id": "throw-vs-return"
+        }
+      ]
+    },
+    {
+      "main_heading": "Advanced Topics",
+      "id": "advanced-topics",
+      "qa": [
+        {
+          "question": "What are JavaScript modules?",
+          "answer": "Modules are reusable pieces of code that can be imported and exported using the `import` and `export` keywords.",
+          "id": "javascript-modules"
+        },
+        {
+          "question": "Explain event delegation.",
+          "answer": "Event delegation is a technique of using a single event listener to manage all similar events within a parent element, leveraging event bubbling.",
+          "id": "event-delegation"
+        },
+        {
+          "question": "What is the purpose of `use strict`?",
+          "answer": "`use strict` is a directive that enables strict mode, which helps catch common coding mistakes and 'unsafe' actions such as defining global variables.",
+          "id": "use-strict"
+        }
+      ]
+    },
+    {
+      "main_heading": "Practical Coding Questions",
+      "id": "practical-coding-questions",
+      "qa": [
+        {
+          "question": "Write a function to reverse a string.",
+          "code_snippet": "function reverseString(str) {\n  return str.split('').reverse().join('');\n}",
+          "id": "reverse-string"
+        },
+        {
+          "question": "Write a function to check if a string is a palindrome.",
+          "code_snippet": "function isPalindrome(str) {\n  const reversed = str.split('').reverse().join('');\n  return str === reversed;\n}",
+          "id": "check-palindrome"
+        },
+        {
+          "question": "How would you implement debouncing in JavaScript?",
+          "code_snippet": "function debounce(func, wait) {\n  let timeout;\n  return function(...args) {\n    clearTimeout(timeout);\n    timeout = setTimeout(() => func.apply(this, args), wait);\n  };\n}",
+          "id": "debouncing"
+        },
+        {
+          "question": "How do you deep clone an object in JavaScript?",
+          "code_snippet": "function deepClone(obj) {\n  return JSON.parse(JSON.stringify(obj));\n}",
+          "id": "deep-clone-object"
+        }
+      ]
+    },
+    {
+      "main_heading": "Variables and Data Types",
+      "id": "variables-data-types",
+      "qa": [
+        {
+          "question": "What are variables in JavaScript?",
+          "answer": "Variables are declared using `var`, `let`, or `const`.",
+          "id": "variables"
+        },
+        {
+          "question": "What are the data types in JavaScript?",
+          "answer": "Includes `Number`, `String`, `Boolean`, `Object`, `Undefined`, `Null`, `Symbol`, and `BigInt`.",
+          "id": "data-types"
+        }
+      ]
+    },
+    {
+      "main_heading": "Operators",
+      "id": "operators",
+      "qa": [
+        {
+          "question": "What are the arithmetic operators in JavaScript?",
+          "answer": "Includes `+`, `-`, `*`, `/`, `%`, `++`, `--`.",
+          "id": "arithmetic-operators"
+        },
+        {
+          "question": "What are the assignment operators in JavaScript?",
+          "answer": "Includes `=`, `+=`, `-=`, `*=`, `/=`, `%=`.",
+          "id": "assignment-operators"
+        },
+        {
+          "question": "What are the comparison operators in JavaScript?",
+          "answer": "Includes `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`.",
+          "id": "comparison-operators"
+        },
+        {
+          "question": "What are the logical operators in JavaScript?",
+          "answer": "Includes `&&`, `||`, `!`.",
+          "id": "logical-operators"
+        }
+      ]
+    },
+    {
+      "main_heading": "Control Structures",
+      "id": "control-structures",
+      "qa": [
+        {
+          "question": "What are the conditional statements in JavaScript?",
+          "answer": "Includes `if`, `else if`, `else`, `switch`.",
+          "id": "conditional-statements"
+        },
+        {
+          "question": "What are the loops available in JavaScript?",
+          "answer": "Includes `for`, `while`, `do...while`, `for...in`, `for...of`.",
+          "id": "loops"
+        }
+      ]
+    },
+    {
+      "main_heading": "Functions",
+      "id": "functions",
+      "qa": [
+        {
+          "question": "What is a function declaration in JavaScript?",
+          "answer": "`function name() { ... }`",
+          "id": "function-declaration"
+        },
+        {
+          "question": "What is a function expression in JavaScript?",
+          "answer": "`const name = function() { ... };`",
+          "id": "function-expression"
+        },
+        {
+          "question": "What is an arrow function in JavaScript?",
+          "answer": "`const name = () => { ... };`",
+          "id": "arrow-function"
+        },
+        {
+          "question": "What are higher-order functions in JavaScript?",
+          "answer": "Functions that take other functions as arguments or return them.",
+          "id": "higher-order-functions"
+        }
+      ]
+    },
+    {
+      "main_heading": "Scope and Closures",
+      "id": "scope-closures",
+      "qa": [
+        {
+          "question": "What is scope in JavaScript?",
+          "answer": "Scope determines the accessibility of variables (global, local, block scope).",
+          "id": "scope"
+        },
+        {
+          "question": "What are closures in JavaScript?",
+          "answer": "Closures are functions that remember their lexical environment.",
+          "id": "closures"
+        }
+      ]
+    },
+    {
+      "main_heading": "Objects and Prototypes",
+      "id": "objects-prototypes",
+      "qa": [
+        {
+          "question": "What are objects in JavaScript?",
+          "answer": "Objects are collections of key-value pairs.",
+          "id": "objects"
+        },
+        {
+          "question": "What are prototypes in JavaScript?",
+          "answer": "Prototypes are mechanisms by which objects inherit features from one another.",
+          "id": "prototypes"
+        }
+      ]
+    },
+    {
+      "main_heading": "Asynchronous JavaScript",
+      "id": "asynchronous-javascript",
+      "qa": [
+        {
+          "question": "What are callbacks in JavaScript?",
+          "answer": "Callbacks are functions passed as arguments to be executed later.",
+          "id": "callbacks"
+        },
+        {
+          "question": "What are promises in JavaScript?",
+          "answer": "Promises are objects representing the eventual completion or failure of asynchronous operations.",
+          "id": "promises"
+        },
+        {
+          "question": "What is Async/Await in JavaScript?",
+          "answer": "Async/Await is syntactic sugar for working with promises in a synchronous-like manner.",
+          "id": "async-await"
+        }
+      ]
+    },
+    {
+      "main_heading": "Event Handling",
+      "id": "event-handling",
+      "qa": [
+        {
+          "question": "What are event listeners in JavaScript?",
+          "answer": "Functions that respond to user interactions like clicks, key presses, etc.",
+          "id": "event-listeners"
+        },
+        {
+          "question": "What is event propagation in JavaScript?",
+          "answer": "The process by which an event travels through the DOM (capturing, target, bubbling).",
+          "id": "event-propagation"
+        }
+      ]
+    },
+    {
+      "main_heading": "Error Handling",
+      "id": "error-handling",
+      "qa": [
+        {
+          "question": "How do you handle errors in JavaScript?",
+          "answer": "Using `try`, `catch`, `finally` blocks to handle exceptions and execute cleanup code.",
+          "id": "try-catch-finally"
+        },
+        {
+          "question": "What is the `throw` keyword in JavaScript?",
+          "answer": "The `throw` keyword is used to create custom errors.",
+          "id": "throw"
+        }
+      ]
+    },
+    {
+      "main_heading": "DOM Manipulation",
+      "id": "dom-manipulation",
+      "qa": [
+        {
+          "question": "How do you select elements in the DOM?",
+          "answer": "Using methods like `getElementById`, `getElementsByClassName`, `querySelector`, `querySelectorAll`.",
+          "id": "select-elements"
+        },
+        {
+          "question": "How do you modify elements in the DOM?",
+          "answer": "By changing HTML content, attributes, or styles.",
+          "id": "modify-elements"
+        },
+        {
+          "question": "How do you create and insert elements in the DOM?",
+          "answer": "Using methods like `createElement`, `appendChild`, `insertBefore`.",
+          "id": "create-insert-elements"
+        }
+      ]
+    },
+    {
+      "main_heading": "Modules",
+      "id": "modules",
+      "qa": [
+        {
+          "question": "What is the import/export syntax in JavaScript?",
+          "answer": "Import/export syntax is used for splitting code into reusable modules.",
+          "id": "import-export"
+        }
+      ]
+    },
+    {
+      "main_heading": "ES6+ Features",
+      "id": "es6-features",
+      "qa": [
+        {
+          "question": "What are let and const in JavaScript?",
+          "answer": "Let and Const are block-scoped variable declarations.",
+          "id": "let-const"
+        },
+        {
+          "question": "What are template literals in JavaScript?",
+          "answer": "Template literals are string literals allowing embedded expressions.",
+          "id": "template-literals"
+        },
+        {
+          "question": "What is destructuring in JavaScript?",
+          "answer": "Destructuring is a syntax for extracting values from arrays or objects.",
+          "id": "destructuring"
+        },
+        {
+          "question": "What are spread and rest operators in JavaScript?",
+          "answer": "The `...` operator is used for expanding or collecting elements.",
+          "id": "spread-rest"
+        },
+        {
+          "question": "What are classes in JavaScript?",
+          "answer": "Classes are syntactic sugar over JavaScript's prototype-based inheritance.",
+          "id": "classes"
+        }
+      ]
+    },
+    {
+      "main_heading": "JSON (JavaScript Object Notation)",
+      "id": "json",
+      "qa": [
+        {
+          "question": "How do you parse JSON in JavaScript?",
+          "answer": "Using `JSON.parse()`.",
+          "id": "json-parse"
+        },
+        {
+          "question": "How do you stringify JSON in JavaScript?",
+          "answer": "Using `JSON.stringify()`.",
+          "id": "json-stringify"
+        }
+      ]
+    },
+    {
+      "main_heading": "Strict Mode",
+      "id": "strict-mode",
+      "qa": [
+        {
+          "question": "What is 'use strict' in JavaScript?",
+          "answer": "'use strict' is a directive to enforce stricter parsing and error handling in JavaScript code.",
+          "id": "use-strict"
+        }
+      ]
+    }
+  ]
+}
